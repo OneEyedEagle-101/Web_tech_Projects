@@ -28,7 +28,7 @@ function click1(btn)
     {
         sign="+";
         document.getElementById("display1").innerHTML="+";
-            num1= parseInt(num);
+            num1=parseInt(num);
             num=undefined;
             flag=true;
             return;
