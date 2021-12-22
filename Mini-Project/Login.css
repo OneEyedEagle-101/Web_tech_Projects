@@ -1,0 +1,101 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  background: rgb(4, 197, 130);
+  display: flex;
+  flex-direction: column;
+}
+.navbar {
+  background: rgba(46, 49, 56, 0.8);
+  border-bottom: solid 10px rgba(0, 0, 0, 0.3);
+  height: 12vh;
+}
+.outercontainer {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+.login-box {
+  margin-top: 10vh;
+  width: 60vh;
+  margin-bottom: 10vh;
+  border-right: solid 10px rgba(0, 0, 0, 0.3);
+  border-bottom: solid 10px rgba(0, 0, 0, 0.3);
+  border-top-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  background: rgba(46, 49, 56, 0.8);
+  display: flex;
+  flex-direction: column;
+}
+.inputbox {
+  width: 78%;
+  margin-left: 10%;
+  margin-top: 2%;
+  background: rgb(196, 196, 197);
+  border: solid 4px rgba(0, 0, 0, 0.2);
+  height: 6%;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  transition: all;
+}
+.textalign {
+  margin-left: 10%;
+  margin-top: 6%;
+}
+.intext {
+  font-family: "Varela Round", sans-serif;
+  font-size: 30px;
+  color: aliceblue;
+  text-decoration: underline;
+}
+.text {
+  color: rgb(188, 202, 214);
+  font-family: "Varela Round", sans-serif;
+  font-size: 16px;
+}
+.sub {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  width: 100%;
+}
+.subbut {
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 18px;
+  width: 70%;
+  height: 70%;
+  border: solid 4px rgba(0, 0, 0, 0.2);
+  background: rgb(4, 197, 130);
+  border-radius: 20px;
+  transition: all 1s;
+}
+.subbut:hover {
+  color: rgba(46, 49, 56, 0.8);
+  background-color: rgb(167, 158, 149);
+}
+
+.forget {
+  font-size: 12px;
+  margin-left: 38%;
+  width: 100vh;
+}
+a {
+  text-decoration: none;
+  color: rgb(188, 202, 214);
+  font-family: "Varela Round", sans-serif;
+}
+
+.new {
+  flex: 1;
+  display: flex;
+  margin-top: 8%;
+  justify-content: center;
+  width: 100%;
+}
+.inputbox:focus {
+  outline: solid 2px rgb(224, 226, 109);
+}
