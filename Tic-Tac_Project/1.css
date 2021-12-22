@@ -1,0 +1,77 @@
+html,
+body {
+  margin: 0%;
+  background: rgb(168, 168, 168);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 500;
+}
+.top {
+  background: rgb(73, 73, 73);
+  font-family: "Dosis";
+  font-weight: 800;
+  font-size: 7vh;
+  color: rgb(162, 213, 172);
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+}
+
+.body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.outer {
+  height: 60vh;
+  width: 60vh;
+  margin-top: 12vh;
+  display: flex;
+  flex-direction: column;
+}
+.checkbox {
+  flex: 3;
+  border-radius: 20px;
+  display: flex;
+}
+.cross {
+  flex: 1;
+  margin: 4px;
+  border-radius: 20px;
+  background-color: rgb(143, 150, 156);
+  border: solid 4px rgb(219, 224, 230);
+}
+.internal {
+  width: 100%;
+  height: 100%;
+  font-size: 100px;
+  border-radius: 20px;
+  display: flex;
+  color: rgb(36, 41, 47);
+  align-items: center;
+  justify-content: center;
+}
+.cross:hover {
+  border: solid 2px rgb(112, 112, 214);
+}
+.copy {
+  display: flex;
+  margin-bottom: 20px;
+  align-items: flex-end;
+  justify-items: center;
+  font-size: 15px;
+}
+#result1 {
+  margin-top: 1vh;
+
+  font-family: "Dosis";
+  text-align: center;
+  font-size: 5vh;
+  width: 60vw;
+  background: rgb(219, 224, 230);
+}
+.res {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
